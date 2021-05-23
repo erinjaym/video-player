@@ -1,4 +1,47 @@
-.body
+body
 {
-background-color: black;
+background-color: grey;
 }
+
+nav{
+    background-color: black;
+    color: grey;
+    height: 75px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+input{
+background-color: grey;
+}
+
+aside{
+background-color: honeydew;
+bottom: 0;
+right: 0; 
+top: 76px;
+width: 300px;
+position: absolute;
+}
+
+main{
+background-color: darkgray;
+bottom: 0;
+left: 0;
+position: absolute;
+top:76px;
+right: 300px;
+
+}
+
+.main-video{
+background-color: darkmagenta;
+height: 480px;
+}
+
+video {
+    max-width: 640px;
+    max-height: 480px;
+  }
