@@ -1,47 +1,98 @@
 body
 {
-background-color: grey;
+display: flex;
+background-color: rgb(182, 12, 12);
 }
 
 nav{
+    display: flex;
+    padding-left: 10px;
     background-color: black;
+    border-bottom: grey 1px solid;
     color: grey;
     height: 75px;
-    top: 0;
     left: 0;
-    right: 0;
+    padding-top: 20px;
     position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
 
-input{
-background-color: grey;
+input[type=text]{
+background-color: black;
+box-sizing: border-box;
+font-size: 1.5em;
+padding: 12px 20px;
+height: 50px;
+width: 400px;
 }
 
 aside{
-background-color: honeydew;
-bottom: 0;
-right: 0; 
+background-color: rgb(18, 238, 18);
+position: absolute;
+left: 874px;
 top: 76px;
 width: 300px;
-position: absolute;
 }
 
 main{
-background-color: darkgray;
-bottom: 0;
+background-color: #222;
+display: flex;
+flex-direction: column;
 left: 0;
+padding: 5px 10px 10px 10px;
 position: absolute;
 top:76px;
-right: 300px;
-
 }
 
 .main-video{
+align-items: center;
 background-color: darkmagenta;
 height: 480px;
+justify-items: center;
+max-height: 480px;
+max-width: 874px;
 }
 
-video {
-    max-width: 640px;
-    max-height: 480px;
+  .subscribe{
+    background-color: red;
+    color: white;
   }
+
+
+.video-info{
+border-bottom: darkgray 1px solid;    
+color:darkgray;
+font-size: 2em;
+}
+
+.subscribe-to-user{
+    border-bottom: darkgray 1px solid;
+    color:darkgray;
+    font-size: 2em;
+    }
+
+.comments-section{
+    border-bottom: darkgray 1px solid;
+    color:darkgray;
+    font-size: 2em;
+    }
+
+.comment{
+    color:darkgray;
+    font-size: .9em;
+    }
+
+.logo{
+    padding-right: 70px;
+    border-radius: 2%;
+}
+
+.search-bar{
+    padding-right: 50px;
+}
+    
+
+    
+
