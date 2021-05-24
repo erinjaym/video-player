@@ -14,6 +14,14 @@ body {
   max-width: fit-content;
 }
 
+.channel-info {
+  border-bottom: darkgray 1px solid;
+  color: darkgray;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+
 .comment {
   color: darkgray;
   font-size: 1em;
@@ -24,13 +32,6 @@ body {
   font-size: 2em;
 }
 
-.channel-info {
-  border-bottom: darkgray 1px solid;
-  color: darkgray;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 10px;
-}
 .comments-section {
   border-bottom: darkgray 1px solid;
   color: darkgray;
