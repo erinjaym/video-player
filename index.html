@@ -32,20 +32,20 @@
     <div id="main-video" class="main-video">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/CxuiFNYnEr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<section>
-    <div id="video-info" class="video-info">Video / for Share comment etc</div>
+<section id="video-info" class="video-info">
+    <div id="video-title" class="video-title">10 Best Places to Visit in Japan - Travel Video </div>
+    <div id="stats"><p>636,737 views • <span id="datetime"></span></p></div>
 </section>
-    <section>  
-        <div id="subscribe" class="subscribe-to-user">
-            <button class="subscribe">Subscribe Button</button>
-        </div>
+    <section id="channel-info" class="channel-info">
+       <img id="channel-image" src="./images/channel.jpeg" style="border-radius: 50%;">
+       <span id="chanel-name" class="user-name">Touropia </span>
+         <button class="subscribe">SUBSCRIBE</button>
     </section>
-   <section>
-        <div id="comments" class="comments-section"><u>Comments Section</u><br>
-            <div id="comment1" class="comment">Billy Bojangles</div>
-            <div id="comment1" class="comment">Billy Bojangles</div>
-            <div id="comment1" class="comment">Billy Bojangles</div>
-        </div>
+   <section class="comments-section">
+        <div id="comments" class="comment-heading">8 Million Comments</div>
+            <div id="comment1" class="comment"><p>Blah Ze Blah</p></div>
+            <div id="comment1" class="comment"><p>Blah Ze Blah</p></div>
+            <div id="comment1" class="comment"><p>Blah Ze Blah</p></div>
    </section> 
 
 
@@ -53,6 +53,9 @@
         <!-- change to links with image placeholders change into actual youtube links??
         Not an aside is in flex box goes to bottom of page on pg resize -->
 </body>
-<script></script>
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
 </html>
 

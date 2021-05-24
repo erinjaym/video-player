@@ -1,7 +1,7 @@
 body
 {
 display: flex;
-background-color: black;
+background-color: #222;
 }
 
 nav{
@@ -58,33 +58,38 @@ max-height: 480px;
 max-width: 874px;
 }
 
-  .subscribe{
+.subscribe{
     background-color: red;
+    border: none;
+    border-radius: 2%;
     color: white;
+    font-size: 1em;
+    padding: 4px 6px;
+    text-align: center;
   }
 
 
 .video-info{
-border-bottom: darkgray 1px solid;    
+border-bottom: darkgray 1px solid; 
 color:darkgray;
-font-size: 2em;
+padding-top: 10px;   
 }
 
-.subscribe-to-user{
-    border-bottom: darkgray 1px solid;
-    color:darkgray;
-    font-size: 2em;
-    }
 
 .comments-section{
     border-bottom: darkgray 1px solid;
     color:darkgray;
-    font-size: 2em;
+    padding-top: 10px;   
     }
+
+.comment-heading{
+    color: white;
+    font-size: 2em;
+}
 
 .comment{
     color:darkgray;
-    font-size: .9em;
+    font-size: 1em;
     }
 
 .logo{
@@ -95,7 +100,21 @@ font-size: 2em;
 .search-bar{
     padding-right: 50px;
 }
-    
 
-    
+.video-title{
+font-size: 2em;
+}
 
+.user-name{
+    color: white;
+    font-weight: bold;
+    padding-right: 450px;
+}
+
+.channel-info{
+    border-bottom: darkgray 1px solid; 
+    color:darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;   
+    }
